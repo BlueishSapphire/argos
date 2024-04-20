@@ -32,14 +32,14 @@ static struct argp_option options[] = {
 		{ "silent",    's', 0, OPTION_ALIAS, 0,                         1 },
 
 	{ 0, 0, 0, OPTION_DOC, "Configure inotify responses:", 2 },
-		{ "ALL",       'X', 0, 0, "Run COMMAND when FILE fires any event.",     2 },
-		{ "ACCESS",    'A', 0, 0, "Run COMMAND when FILE is accessed.",         2 },
-		{ "MODIFY",    'M', 0, 0, "Run COMMAND when FILE is modified.",         2 },
-		{ "OPEN",      'O', 0, 0, "Run COMMAND when FILE is opened.",           2 },
-		{ "CREATE",    'C', 0, 0, "Run COMMAND when FILE is created.",          2 },
-		{ "CLOSE",     'S', 0, 0, "Run COMMAND when FILE is closed.",           2 },
-		{ "DELETE",    'D', 0, 0, "Run COMMAND when FILE is deleted.",          2 },
-		{ "ATTRIB",    'B', 0, 0, "Run COMMAND when FILE's attributes change.", 2 },
+		{ "all",       'X', 0, 0, "Run COMMAND when FILE fires any event.",     2 },
+		{ "access",    'A', 0, 0, "Run COMMAND when FILE is accessed.",         2 },
+		{ "modify",    'M', 0, 0, "Run COMMAND when FILE is modified.",         2 },
+		{ "open",      'O', 0, 0, "Run COMMAND when FILE is opened.",           2 },
+		{ "create",    'C', 0, 0, "Run COMMAND when FILE is created.",          2 },
+		{ "close",     'S', 0, 0, "Run COMMAND when FILE is closed.",           2 },
+		{ "delete",    'D', 0, 0, "Run COMMAND when FILE is deleted.",          2 },
+		{ "attrib",    'B', 0, 0, "Run COMMAND when FILE's attributes change.", 2 },
 
 	{ 0 }
 };
